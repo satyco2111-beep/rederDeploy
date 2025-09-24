@@ -38,7 +38,7 @@ function Extension() {
     <BlockStack border={"dotted"} padding={"tight"}>
       <Banner title="checkout-ui">
         {translate("welcome", {
-          target: <Text emphasis="italic">{extension.target} satyam</Text>,
+          target: <Text emphasis="italic">{extension.target} satyam its is live app</Text>,
         })}
       </Banner>
       <Checkbox onChange={onCheckboxChange}>

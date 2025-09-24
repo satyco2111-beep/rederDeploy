@@ -2,12 +2,11 @@
 
 client_id = "c452fbdbbaba13744192617aa2356092"
 name = "deployrender3"
-application_url = "https://example.com"
+application_url = "https://rederdeploy.onrender.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
-include_config_on_deploy = true
 
 [webhooks]
 api_version = "2025-10"
@@ -17,4 +16,4 @@ api_version = "2025-10"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://rederdeploy.onrender.com/api/auth" ]
